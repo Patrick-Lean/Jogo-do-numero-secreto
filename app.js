@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 20;
+let numeroLimite = 40;
 let numeroSecreto = gerarNumeroAleatorio();
 let numeroDeTentativas = 1;
 //let titulo = document.querySelector('h1');
@@ -16,7 +16,7 @@ function exibirTextoNaTela(tag,texto){
 
 function mensagemInicial(){
     exibirTextoNaTela('h1','Advinhe o número');
-    exibirTextoNaTela('p','Escolha um número entre 1 e 20');    
+    exibirTextoNaTela('p','Escolha um número entre 1 e 40');    
 }
 
 mensagemInicial();
