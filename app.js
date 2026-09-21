@@ -7,7 +7,7 @@ let numeroDeTentativas = 1;
 
 //let paragrafo = document.querySelector('p');
 //paragrafo.innerHTML = "Escolha um número entre 1 e 10";
-//Teste para commit
+//Teste para commit TESTE
 function exibirTextoNaTela(tag,texto){
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
